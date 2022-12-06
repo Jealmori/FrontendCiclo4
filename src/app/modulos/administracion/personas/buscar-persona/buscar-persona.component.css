@@ -1,0 +1,40 @@
+.imagenProducto{
+    width: 100px;
+}
+.table-responsive{
+    width: 600px;
+    background-color: azure;
+    padding: 40px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    color: #000;
+    box-shadow: 1px 1px 30px #000; 
+}
+.btn-n{
+    width: 100%;
+    background: #304166;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    align-content: center;
+}
+.btnn{
+    text-align:  center;
+    height: 50px;
+
+}
+
+    .roww{
+        margin: auto;
+        overflow: hidden;
+        background: #373B44;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(217, 89%, 61%, 0.675), hsla(222, 11%, 24%, 0.642)),url(https://w0.peakpx.com/wallpaper/605/23/HD-wallpaper-cats-cat-pet-stare.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, hsla(217, 89%, 61%, 0.675), hsla(222, 11%, 24%, 0.642)),url(https://w0.peakpx.com/wallpaper/605/23/HD-wallpaper-cats-cat-pet-stare.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+      }

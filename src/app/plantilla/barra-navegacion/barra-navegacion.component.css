@@ -1,0 +1,15 @@
+.brand-logo{
+    text-align: right;
+    height: 50px;
+    color: rgb(255, 255, 255);
+
+}
+.nav-wrapper {
+color: rgb(33, 33, 33);
+background-color: #414141;
+text-align: center;
+}
+
+.material-icons{
+    color: navy;
+}

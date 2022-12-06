@@ -1,0 +1,37 @@
+<div class = "roww">
+    <div class = "form-style-9">
+    <h3 class=" center-align">Eliminar Registro</h3>
+    <article class="col s6 offset-s3">
+        <form [formGroup]="fgValidador" (ngSubmit)="EliminarPersona()" method="POST" action="formulario-contacto.php">
+            <div class="input-flied">
+                <label for="nombres">Nombre</label>
+                <input formControlName ="nombres" type="text" name="nombres" required>
+            </div>
+
+            <div class="input-flied">
+                <label for="apellidos">Apellido</label>
+                <input formControlName ="apellidos" type="text" name="apellidos" required>
+
+            </div>
+
+            <div class="input-flied">
+                <label for="correo">Correo</label>
+                <input formControlName ="correo" type="text" name="correo" required>
+
+            </div>
+            <div class="input-flied">
+                <label for="celular">Celular</label>
+                <input formControlName ="celular" type="text" name="celular" required>
+
+            </div>
+            <p class="center-align">
+                <button [disabled] ="!fgValidador.valid" class="waves-effect waves-light btn" type="submit">
+                <i class="material-icons right">send</i>Eliminar
+                </button>
+
+            </p>
+
+        </form>
+
+    </article>
+</div>

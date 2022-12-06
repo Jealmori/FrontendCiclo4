@@ -1,0 +1,229 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #642a73;
+}
+
+.titulo{
+    color : #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*header*/
+header{
+    width: 100%;
+    height: 600px;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(217, 89%, 61%, 0.675), hsla(222, 11%, 24%, 0.642)),url(https://okdiario.com/img/2020/06/14/perro-655x368.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.675), hsla(222, 11%, 24%, 0.642)),url(https://okdiario.com/img/2020/06/14/perro-655x368.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;  
+}
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 320px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.wave{
+   position: absolute; 
+   bottom: 0;
+   width: 100%;
+}
+footer{
+    background-color: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.contenedor-foo{
+    text-align: center;
+}
+.contenedor-foo h4{
+    color: #fff;
+    border-bottom: 3px hsla(217, 89%, 61%, 0.675);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.contenedor-foo p{
+    color: #ccc;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9799
+}
+.form-register {
+    width: 400px;
+    background: #070707;
+    padding: 30px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .img-re img{
+    width: 80%;
+    padding: 12px;
+    margin: 16px;
+
+  }
+  .contenedor-re{
+    margin: auto;
+    overflow: hidden;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(217, 89%, 61%, 0.675), hsla(222, 11%, 24%, 0.642)),url(https://okdiario.com/img/2020/06/14/perro-655x368.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.675), hsla(222, 11%, 24%, 0.642)),url(https://okdiario.com/img/2020/06/14/perro-655x368.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #1f53c5;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #1f53c5;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #1f53c5;
+}
+.tabla{
+    width: 600px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 1000px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 1px 1px 30px #000; 
+}

@@ -1,0 +1,21 @@
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<div class="row">
+
+
+<div class="logo"></div>
+<div class="login-block">
+    <h1>Identificación de Usuario</h1>
+    <form [formGroup] ="fgValidador" (ngSubmit)="IdentificarUsuario()">
+
+   
+    <input formControlName = "usuario" type="email" value="" placeholder="Usuario" id="email"   />
+    <input formControlName = "clave" type="password" value="" placeholder="Contraseña" id="password"  autocomplete="off" />
+    <button [disabled]="!fgValidador.valid" class ="btn waves-effect waves-light" type="submit"  name="action" >
+    
+        <i> Ingresar</i>
+
+
+    </button>
+    </form>
+</div>
+</div>
